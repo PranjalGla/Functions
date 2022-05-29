@@ -1,0 +1,7 @@
+def fun(x):
+  if x%2==0:
+    print(f"{x} is even no.")
+  else:
+    print(f"{x} is odd no.")
+x=int(input())
+fun(x)
